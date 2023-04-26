@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <fragment
+        android:id="@+id/google_map"
+        android:layout_width="match_parent"
+        android:layout_height="590dp"
+        android:name= "com.google.android.gms.maps.SupportMapFragment">
+
+    <Button
+        android:id="@+id/locate"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="530dp"
+        android:text="Locate me"
+
+        android:onClick="getMe" />
+
+    </fragment>
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/details"
+            android:layout_width="match_parent"
+            android:background="@drawable/bg"
+            android:layout_height="150dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="590dp"
+            android:textSize="18dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="6dp" />
+</ScrollView>
+
+
+
+
+
+</RelativeLayout>
