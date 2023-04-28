@@ -26,14 +26,13 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_below="@+id/google_map"
-    android:includeFontPadding="false"
     >
 
     <TextView
         android:id="@+id/details"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="590dp"
+
         android:background="@drawable/bg"
         android:textAlignment="center"
 
